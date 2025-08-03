@@ -16,7 +16,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Security configuration
-SECRET_KEY = "your-super-secret-key-here"
+SECRET_KEY = "f6ssKYDocJ3xqwas"
 ENCRYPTION_KEY = b'YourSecretKeyHere12345678901234567890123456789012='
 cipher = Fernet(ENCRYPTION_KEY)
 
@@ -332,3 +332,4 @@ if __name__ == '__main__':
         df.to_excel(DATABASE_FILE, index=False)
     
     app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+
