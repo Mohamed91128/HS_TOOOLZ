@@ -1,8 +1,5 @@
-pandas
-openpyxl
-requests
-cryptography
 flask
 flask-cors
-
-pyOpenSSL 
+pandas
+cryptography
+pyinstaller
